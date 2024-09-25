@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Static Website</h1>
+    <p>This is a simple static website hosted on the cloud.</p>
+    <p>Hosted with <span id="platform">GitHub Pages</span>!</p>
+
+    <script>
+        // Optional JS code to show platform information
+        const platform = document.getElementById('platform');
+        platform.textContent = 'Google Cloud Storage'; // Change this text for the platform you're using.
+    </script>
+</body>
+</html>
